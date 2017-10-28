@@ -1,23 +1,32 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> CHAT </title>
-        <link href="style.css" rel="stylesheet" type="text/css" />
+        <title>Midterm</title>
+        <!-- My CSS -->
+        <link href="style.css" type="text/css" rel="stylesheet" />
     </head>
-    
     <body>
-        <div id="p1Chat">
-            <input type="text" placeholder="Type your message" id="p1Input" />
+        <div id="controls">
+            <div id="showmenu">
+                <button id="menu">Menu</button>
+            </div>
+            <div id="menubox">
+                <input id="fileIn" class="inputs" type="text" placeholder="Filename" />
+                <input id="titleIn" class="inputs" type="text" placeholder="Title" />
+                <input id="desIn" class="inputs" type="text" placeholder="Description" />
+                
+            </div>
+            <input id="colorbar" type="color">
+            <button id="butt" class="controlButton">+</button>
+
         </div>
-        
-        <div id="p2Chat">
-            <input type="text" placeholder="Type your message" id="p2Input" />
+        <div id="display">
+            <div id="background">
+                <div id="title"></div>
+                <div id="description"></div>
+            </div>
         </div>
-        
-        <div id="chatDisplay">
-        </div>
-        
+        <!-- My JS -->
         <script src="myjs.js"></script>
     </body>
-
 </html>

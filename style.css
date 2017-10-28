@@ -1,22 +1,66 @@
-#p1Chat {
+#controls{
     position:fixed;
-    left:10px;
-    top:10px;
+    left:40vw;
+    bottom:-100px;
+    width:15vw;
+    transition:1s;
 }
 
-#p2Chat {
-    position:fixed;
-    right:10px;
-    top:10px;
+#menubox{
+    position:relative;
+    left:0;
+    right:0;
+    bottom:0;
+    text-align:center;
+    width:100%;
 }
 
-#chatDisplay {
-    width:100vw;
+#showmenu{
+    position:relative;
+    left:0;
+    right:0;
+    bottom:0;
+    text-align:center;
+    width:100%;
+}
+
+#display{
     position:absolute;
-    top:30px;
+    top:0px;
     left:0px;
+    width:99vw;
+    height:auto;
 }
 
-.emoji {
-    height:25px;
+#background{
+    position:relative;
+    width:100%;
+    height:300px;
+    background-image:url("img/bg1.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+#title{
+    position:relative;
+    left:10%;
+    top:10%;
+}
+
+#description{
+    position:relative;
+    left:10%;
+    top:20%;
+    color:grey;
+    font-size:25px;
+}
+
+#menu{
+    width:100%;
+    
+}
+
+#textIn{
+    width:100%;
 }
